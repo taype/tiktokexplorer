@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+
+/* 调整 List.Item 的 padding 来减少行间距 */
+.ant-list-item {
+  border-bottom: none !important; /* 去掉列表项之间的分割线 */
+  padding: 8px 0 !important; /* 设置上下内边距，缩小行间距 */
+}
+
+/* 调整 List.Meta 的字体大小 */
+.ant-list-item-meta-title {
+  font-size: 14px; /* 设置标题的字体大小 */
+}
+
+.ant-list-item-meta-description {
+  font-size: 14px; /* 设置描述的字体大小，保持一致 */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
